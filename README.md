@@ -7,7 +7,7 @@
 
 ## Ports Used
 
-These porte must be open on your deployment machine
+These ports must be open on your deployment machine
 - 8081 MongoDB UI
 - 9080 REST API
 - 3000 Frontend
