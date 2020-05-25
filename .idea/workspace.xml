@@ -10,12 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0da85c-8ccc-4e05-bc91-197e73e5ee2f" name="Default Changelist" comment="init project files">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1b0da85c-8ccc-4e05-bc91-197e73e5ee2f" name="Default Changelist" comment="Added frontend to docker-compose">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/MongoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/MongoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/init-mongo.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <recent name="$PROJECT_DIR$/database" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.services: Compose Deployment">
+  <component name="RunManager" selected="Maven.backend:dev">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -200,7 +201,7 @@
       <updated>1590382242640</updated>
       <workItem from="1590382243976" duration="2592000" />
       <workItem from="1590420718590" duration="4201000" />
-      <workItem from="1590424979569" duration="19403000" />
+      <workItem from="1590424979569" duration="20972000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1590442931557</created>
@@ -223,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590443348709</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added frontend to docker-compose">
+      <created>1590447295887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590447295887</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added frontend to docker-compose">
+      <created>1590447302052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590447302052</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +263,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="init frontend" />
     <MESSAGE value="init project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project files" />
+    <MESSAGE value="Added frontend to docker-compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added frontend to docker-compose" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="97" width="1024" height="852" key="#Project_Structure" timestamp="1590382265122">
@@ -295,22 +311,22 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="791" y="433" width="338" height="178" key="Github.Dialog.Accounts.Choose/0.27.1920.985@0.27.1920.985" timestamp="1590442988859" />
-    <state width="1874" height="656" key="GridCell.Tab.0.bottom" timestamp="1590444370713">
+    <state width="1874" height="272" key="GridCell.Tab.0.bottom" timestamp="1590448031223">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="656" key="GridCell.Tab.0.bottom/0.27.1920.985@0.27.1920.985" timestamp="1590444370713" />
-    <state width="1874" height="656" key="GridCell.Tab.0.center" timestamp="1590444370712">
+    <state width="1874" height="272" key="GridCell.Tab.0.bottom/0.27.1920.985@0.27.1920.985" timestamp="1590448031223" />
+    <state width="1874" height="272" key="GridCell.Tab.0.center" timestamp="1590448031222">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="656" key="GridCell.Tab.0.center/0.27.1920.985@0.27.1920.985" timestamp="1590444370712" />
-    <state width="1874" height="656" key="GridCell.Tab.0.left" timestamp="1590444370712">
+    <state width="1874" height="272" key="GridCell.Tab.0.center/0.27.1920.985@0.27.1920.985" timestamp="1590448031222" />
+    <state width="1874" height="272" key="GridCell.Tab.0.left" timestamp="1590448031214">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="656" key="GridCell.Tab.0.left/0.27.1920.985@0.27.1920.985" timestamp="1590444370712" />
-    <state width="1874" height="656" key="GridCell.Tab.0.right" timestamp="1590444370712">
+    <state width="1874" height="272" key="GridCell.Tab.0.left/0.27.1920.985@0.27.1920.985" timestamp="1590448031214" />
+    <state width="1874" height="272" key="GridCell.Tab.0.right" timestamp="1590448031223">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="656" key="GridCell.Tab.0.right/0.27.1920.985@0.27.1920.985" timestamp="1590444370712" />
+    <state width="1874" height="272" key="GridCell.Tab.0.right/0.27.1920.985@0.27.1920.985" timestamp="1590448031223" />
     <state width="1874" height="313" key="GridCell.Tab.1.bottom" timestamp="1590427627680">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
