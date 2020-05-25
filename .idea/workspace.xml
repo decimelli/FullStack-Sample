@@ -10,14 +10,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0da85c-8ccc-4e05-bc91-197e73e5ee2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+    <list default="true" id="1b0da85c-8ccc-4e05-bc91-197e73e5ee2f" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/backend/target/liberty/wlp/usr/servers/backend/workarea/org.eclipse.osgi/23/data/feature.fix.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/target/liberty/wlp/usr/servers/backend/workarea/platform/feature.bundles.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/target/liberty/wlp/usr/servers/backend/workarea/platform/feature.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -33,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -47,6 +54,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/database" />
@@ -173,8 +181,16 @@
       <updated>1590382242640</updated>
       <workItem from="1590382243976" duration="2592000" />
       <workItem from="1590420718590" duration="4201000" />
-      <workItem from="1590424979569" duration="17760000" />
+      <workItem from="1590424979569" duration="18100000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1590442931557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590442931557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +207,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="97" width="1024" height="852" key="#Project_Structure" timestamp="1590382265122">
@@ -233,6 +253,10 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="795" y="281" width="682" height="489" key="EnvironmentVariablesDialog/0.27.1920.985@0.27.1920.985" timestamp="1590441932083" />
+    <state x="791" y="433" width="338" height="178" key="Github.Dialog.Accounts.Choose" timestamp="1590442988859">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="791" y="433" width="338" height="178" key="Github.Dialog.Accounts.Choose/0.27.1920.985@0.27.1920.985" timestamp="1590442988859" />
     <state width="1874" height="656" key="GridCell.Tab.0.bottom" timestamp="1590442048234">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
@@ -265,6 +289,10 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state width="1874" height="313" key="GridCell.Tab.1.right/0.27.1920.985@0.27.1920.985" timestamp="1590427627680" />
+    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1590442975842">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.985@0.27.1920.985" timestamp="1590442975842" />
     <state x="651" y="258" width="618" height="522" key="find.popup" timestamp="1590435402749">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
