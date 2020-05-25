@@ -1,0 +1,50 @@
+version: "3.5"
+services:
+  mongo:
+    image: mongo
+    restart: always
+    container_name: app-mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin1
+      MONGO_INITDB_ROOT_PASSWORD: pw123
+      MONGO_INITDB_DATABASE: fullstack1
+    volumes:
+      - ./database/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - ./database/data/db:/data/db
+    networks:
+      - backend
+      - database
+  mongo-express:
+    image: mongo-express
+    container_name: app-mongoui
+    restart: always
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: admin1
+      ME_CONFIG_MONGODB_ADMINPASSWORD: pw123
+    networks:
+      - database
+    depends_on:
+      - mongo
+    ports:
+    - "8081:8081"
+  backend:
+    container_name: app-backend
+    build: ./backend
+    environment:
+      mongo: app-mongodb
+    depends_on:
+      - mongo
+    networks:
+      - backend
+    ports:
+    - "9080:9080"
+networks:
+  frontend:
+    name: app_frontend
+    driver: bridge
+  backend:
+    name: app_backend
+    driver: bridge
+  database:
+    name: app-database
+    driver: bridge

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b0da85c-8ccc-4e05-bc91-197e73e5ee2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1cNwDwW8tuXcTxVRaBMz9WkzVZb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.backend:run">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="backend:run" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map>
+                <entry key="mongo" value="0.0.0.0" />
+              </map>
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="liberty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/backend" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.mongodb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mongodb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.mongodb: Compose Deployment" />
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="Maven.backend:dev" />
+      <item itemvalue="Maven.backend:run" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.mongodb: Compose Deployment" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b0da85c-8ccc-4e05-bc91-197e73e5ee2f" name="Default Changelist" comment="" />
+      <created>1590382242640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590382242640</updated>
+      <workItem from="1590382243976" duration="2592000" />
+      <workItem from="1590420718590" duration="4201000" />
+      <workItem from="1590424979569" duration="17760000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="97" width="1024" height="852" key="#Project_Structure" timestamp="1590382265122">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="443" y="97" width="1024" height="852" key="#Project_Structure/0.27.1920.985@0.27.1920.985" timestamp="1590382265122" />
+    <state x="271" y="356" width="1367" height="333" key="#SQL_Dialects" timestamp="1590382809649">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="271" y="356" width="1367" height="333" key="#SQL_Dialects/0.27.1920.985@0.27.1920.985" timestamp="1590382809649" />
+    <state x="562" y="88" width="786" height="869" key="#Unnamed" timestamp="1590441934530">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="562" y="88" width="786" height="869" key="#Unnamed/0.27.1920.985@0.27.1920.985" timestamp="1590441934530" />
+    <state x="555" y="181" width="1126" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590441961783">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="555" y="181" width="1126" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.985@0.27.1920.985" timestamp="1590441961783" />
+    <state x="636" y="321" width="638" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590429419564">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="636" y="321" width="638" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.985@0.27.1920.985" timestamp="1590429419564" />
+    <state x="768" y="227" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1590428451094">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="768" y="227" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.985@0.27.1920.985" timestamp="1590428451094" />
+    <state x="667" y="189" width="575" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590420979720">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="667" y="189" width="575" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1920.985@0.27.1920.985" timestamp="1590420979720" />
+    <state x="713" y="414" width="494" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590425990480">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="713" y="414" width="494" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.985@0.27.1920.985" timestamp="1590425990480" />
+    <state x="693" y="268" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590384831101">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="693" y="268" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.985@0.27.1920.985" timestamp="1590384831101" />
+    <state x="795" y="281" width="682" height="489" key="EnvironmentVariablesDialog" timestamp="1590441932083">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="795" y="281" width="682" height="489" key="EnvironmentVariablesDialog/0.27.1920.985@0.27.1920.985" timestamp="1590441932083" />
+    <state width="1874" height="656" key="GridCell.Tab.0.bottom" timestamp="1590442048234">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state width="1874" height="656" key="GridCell.Tab.0.bottom/0.27.1920.985@0.27.1920.985" timestamp="1590442048234" />
+    <state width="1874" height="656" key="GridCell.Tab.0.center" timestamp="1590442048233">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state width="1874" height="656" key="GridCell.Tab.0.center/0.27.1920.985@0.27.1920.985" timestamp="1590442048233" />
+    <state width="1874" height="656" key="GridCell.Tab.0.left" timestamp="1590442048231">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state width="1874" height="656" key="GridCell.Tab.0.left/0.27.1920.985@0.27.1920.985" timestamp="1590442048231" />
+    <state width="1874" height="656" key="GridCell.Tab.0.right" timestamp="1590442048234">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state width="1874" height="656" key="GridCell.Tab.0.right/0.27.1920.985@0.27.1920.985" timestamp="1590442048234" />
+    <state width="1874" height="313" key="GridCell.Tab.1.bottom" timestamp="1590427627680">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state width="1874" height="313" key="GridCell.Tab.1.bottom/0.27.1920.985@0.27.1920.985" timestamp="1590427627680" />
+    <state width="1874" height="313" key="GridCell.Tab.1.center" timestamp="1590427627679">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state width="1874" height="313" key="GridCell.Tab.1.center/0.27.1920.985@0.27.1920.985" timestamp="1590427627679" />
+    <state width="1874" height="313" key="GridCell.Tab.1.left" timestamp="1590427627679">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state width="1874" height="313" key="GridCell.Tab.1.left/0.27.1920.985@0.27.1920.985" timestamp="1590427627679" />
+    <state width="1874" height="313" key="GridCell.Tab.1.right" timestamp="1590427627680">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state width="1874" height="313" key="GridCell.Tab.1.right/0.27.1920.985@0.27.1920.985" timestamp="1590427627680" />
+    <state x="651" y="258" width="618" height="522" key="find.popup" timestamp="1590435402749">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="651" y="258" width="618" height="522" key="find.popup/0.27.1920.985@0.27.1920.985" timestamp="1590435402749" />
+    <state x="269" y="223" width="1372" height="599" key="new project wizard" timestamp="1590421020700">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="269" y="223" width="1372" height="599" key="new project wizard/0.27.1920.985@0.27.1920.985" timestamp="1590421020700" />
+    <state x="624" y="235" key="run.anything.popup" timestamp="1590437195077">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="624" y="235" key="run.anything.popup/0.27.1920.985@0.27.1920.985" timestamp="1590437195077" />
+    <state x="624" y="162" width="672" height="676" key="search.everywhere.popup" timestamp="1590431535329">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="624" y="162" width="672" height="676" key="search.everywhere.popup/0.27.1920.985@0.27.1920.985" timestamp="1590431535329" />
+    <state x="685" y="351" width="540" height="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590424109140">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="685" y="351" width="540" height="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.985@0.27.1920.985" timestamp="1590424109140" />
+  </component>
+</project>
