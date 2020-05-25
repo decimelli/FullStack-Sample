@@ -10,11 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0da85c-8ccc-4e05-bc91-197e73e5ee2f" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/backend/target/liberty/wlp/usr/servers/backend/workarea/org.eclipse.osgi/23/data/feature.fix.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/target/liberty/wlp/usr/servers/backend/workarea/platform/feature.bundles.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/target/liberty/wlp/usr/servers/backend/workarea/platform/feature.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+    <list default="true" id="1b0da85c-8ccc-4e05-bc91-197e73e5ee2f" name="Default Changelist" comment="init project files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="56ba2d35-abd0-4df0-a2a7-d9e446a80215" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -66,7 +70,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,7 +80,7 @@
       <recent name="$PROJECT_DIR$/database" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.backend:run">
+  <component name="RunManager" selected="Docker.docker-compose.yml.services: Compose Deployment">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -144,6 +148,19 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.services: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="services" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
@@ -161,11 +178,13 @@
       <item itemvalue="Maven.backend:dev" />
       <item itemvalue="Maven.backend:run" />
       <item itemvalue="npm.start" />
+      <item itemvalue="Docker.docker-compose.yml.services: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml.mongodb: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.services: Compose Deployment" />
         <item itemvalue="npm.start" />
+        <item itemvalue="Docker.docker-compose.yml.mongodb: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +200,7 @@
       <updated>1590382242640</updated>
       <workItem from="1590382243976" duration="2592000" />
       <workItem from="1590420718590" duration="4201000" />
-      <workItem from="1590424979569" duration="18100000" />
+      <workItem from="1590424979569" duration="19403000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1590442931557</created>
@@ -190,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590442931557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1590443111599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590443111599</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init frontend">
+      <created>1590443348709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590443348709</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,8 +242,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/frontend" />
+    </ignored-roots>
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="init frontend" />
+    <MESSAGE value="init project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="97" width="1024" height="852" key="#Project_Structure" timestamp="1590382265122">
@@ -229,10 +267,10 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="555" y="181" width="1126" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.985@0.27.1920.985" timestamp="1590441961783" />
-    <state x="636" y="321" width="638" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590429419564">
+    <state x="636" y="321" width="693" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590443407220">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state x="636" y="321" width="638" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.985@0.27.1920.985" timestamp="1590429419564" />
+    <state x="636" y="321" width="693" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.985@0.27.1920.985" timestamp="1590443407220" />
     <state x="768" y="227" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1590428451094">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
@@ -257,22 +295,22 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="791" y="433" width="338" height="178" key="Github.Dialog.Accounts.Choose/0.27.1920.985@0.27.1920.985" timestamp="1590442988859" />
-    <state width="1874" height="656" key="GridCell.Tab.0.bottom" timestamp="1590442048234">
+    <state width="1874" height="656" key="GridCell.Tab.0.bottom" timestamp="1590444370713">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="656" key="GridCell.Tab.0.bottom/0.27.1920.985@0.27.1920.985" timestamp="1590442048234" />
-    <state width="1874" height="656" key="GridCell.Tab.0.center" timestamp="1590442048233">
+    <state width="1874" height="656" key="GridCell.Tab.0.bottom/0.27.1920.985@0.27.1920.985" timestamp="1590444370713" />
+    <state width="1874" height="656" key="GridCell.Tab.0.center" timestamp="1590444370712">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="656" key="GridCell.Tab.0.center/0.27.1920.985@0.27.1920.985" timestamp="1590442048233" />
-    <state width="1874" height="656" key="GridCell.Tab.0.left" timestamp="1590442048231">
+    <state width="1874" height="656" key="GridCell.Tab.0.center/0.27.1920.985@0.27.1920.985" timestamp="1590444370712" />
+    <state width="1874" height="656" key="GridCell.Tab.0.left" timestamp="1590444370712">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="656" key="GridCell.Tab.0.left/0.27.1920.985@0.27.1920.985" timestamp="1590442048231" />
-    <state width="1874" height="656" key="GridCell.Tab.0.right" timestamp="1590442048234">
+    <state width="1874" height="656" key="GridCell.Tab.0.left/0.27.1920.985@0.27.1920.985" timestamp="1590444370712" />
+    <state width="1874" height="656" key="GridCell.Tab.0.right" timestamp="1590444370712">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="656" key="GridCell.Tab.0.right/0.27.1920.985@0.27.1920.985" timestamp="1590442048234" />
+    <state width="1874" height="656" key="GridCell.Tab.0.right/0.27.1920.985@0.27.1920.985" timestamp="1590444370712" />
     <state width="1874" height="313" key="GridCell.Tab.1.bottom" timestamp="1590427627680">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
@@ -289,14 +327,30 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state width="1874" height="313" key="GridCell.Tab.1.right/0.27.1920.985@0.27.1920.985" timestamp="1590427627680" />
-    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1590442975842">
+    <state x="449" y="154" width="1022" height="737" key="SettingsEditor" timestamp="1590443273668">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.985@0.27.1920.985" timestamp="1590442975842" />
+    <state x="449" y="154" width="1022" height="737" key="SettingsEditor/0.27.1920.985@0.27.1920.985" timestamp="1590443273668" />
+    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1590443351347">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.985@0.27.1920.985" timestamp="1590443351347" />
+    <state x="731" y="434" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590444190011">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="731" y="434" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.985@0.27.1920.985" timestamp="1590444190011" />
     <state x="651" y="258" width="618" height="522" key="find.popup" timestamp="1590435402749">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="651" y="258" width="618" height="522" key="find.popup/0.27.1920.985@0.27.1920.985" timestamp="1590435402749" />
+    <state x="672" y="382" width="576" height="282" key="git4idea.rebase.GitRebaseDialog" timestamp="1590443228750">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="672" y="382" width="576" height="282" key="git4idea.rebase.GitRebaseDialog/0.27.1920.985@0.27.1920.985" timestamp="1590443228750" />
+    <state x="661" y="387" width="588" height="272" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1590443179306">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="661" y="387" width="588" height="272" key="git4idea.remote.GitConfigureRemotesDialog/0.27.1920.985@0.27.1920.985" timestamp="1590443179306" />
     <state x="269" y="223" width="1372" height="599" key="new project wizard" timestamp="1590421020700">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
