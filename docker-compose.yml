@@ -4,53 +4,38 @@ services:
     image: mongo
     restart: always
     container_name: app-mongodb
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: admin1
-      MONGO_INITDB_ROOT_PASSWORD: pw123
-      MONGO_INITDB_DATABASE: fullstack1
     volumes:
       - ./database/data/db:/data/db
     networks:
       - backend
       - database
-    ports:
-      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME
+      - MONGO_INITDB_ROOT_PASSWORD
   mongo-express:
     image: mongo-express
     container_name: app-mongoui
     restart: always
-    environment:
-      ME_CONFIG_MONGODB_ADMINUSERNAME: admin1
-      ME_CONFIG_MONGODB_ADMINPASSWORD: pw123
     networks:
       - database
     depends_on:
       - mongo
     ports:
       - "8081:8081"
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME
+      - ME_CONFIG_MONGODB_ADMINPASSWORD
   backend:
     container_name: app-backend
     build: ./backend
-    environment:
-      mongo: app-mongodb
     depends_on:
       - mongo
     networks:
       - backend
     ports:
       - "9080:9080"
-  frontend:
-    container_name: app-frontend
-    build:
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - '.:/app'
-      - '/app/node_modules'
-    ports:
-      - 3001:3000
     environment:
-      - MONGODB-CONNECTION-URL="mongodb://admin1:pwd123@localhost/?authSource=admin"
+      - MONGODB_CONNECTION_URL
 networks:
   frontend:
     name: app_frontend

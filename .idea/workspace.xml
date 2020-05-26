@@ -10,12 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0da85c-8ccc-4e05-bc91-197e73e5ee2f" name="Default Changelist" comment="Added frontend to docker-compose">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="1b0da85c-8ccc-4e05-bc91-197e73e5ee2f" name="Default Changelist" comment="Switched to mongo url, better for compose secrets">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/api/book/BookEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/MongoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/MongoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/MongoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/service/MongoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/api/RestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/api/RestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/api/db/DbListEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/decimelli/backend/api/db/DbListEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/init-mongo.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,10 +66,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -75,6 +83,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/database" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -201,7 +210,7 @@
       <updated>1590382242640</updated>
       <workItem from="1590382243976" duration="2592000" />
       <workItem from="1590420718590" duration="4201000" />
-      <workItem from="1590424979569" duration="20972000" />
+      <workItem from="1590424979569" duration="32266000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1590442931557</created>
@@ -238,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590447302052</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Switched to mongo url, better for compose secrets">
+      <created>1590448368777</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590448368777</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +280,8 @@
     <MESSAGE value="init frontend" />
     <MESSAGE value="init project files" />
     <MESSAGE value="Added frontend to docker-compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added frontend to docker-compose" />
+    <MESSAGE value="Switched to mongo url, better for compose secrets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switched to mongo url, better for compose secrets" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="97" width="1024" height="852" key="#Project_Structure" timestamp="1590382265122">
@@ -287,10 +304,10 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="636" y="321" width="693" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.985@0.27.1920.985" timestamp="1590443407220" />
-    <state x="768" y="227" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1590428451094">
+    <state x="768" y="227" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1590449943919">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state x="768" y="227" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.985@0.27.1920.985" timestamp="1590428451094" />
+    <state x="768" y="227" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.985@0.27.1920.985" timestamp="1590449943919" />
     <state x="667" y="189" width="575" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590420979720">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
@@ -303,6 +320,10 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="693" y="268" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.985@0.27.1920.985" timestamp="1590384831101" />
+    <state x="693" y="268" width="524" height="509" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1590450707712">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="693" y="268" width="524" height="509" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.27.1920.985@0.27.1920.985" timestamp="1590450707712" />
     <state x="795" y="281" width="682" height="489" key="EnvironmentVariablesDialog" timestamp="1590441932083">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
@@ -311,22 +332,22 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="791" y="433" width="338" height="178" key="Github.Dialog.Accounts.Choose/0.27.1920.985@0.27.1920.985" timestamp="1590442988859" />
-    <state width="1874" height="272" key="GridCell.Tab.0.bottom" timestamp="1590448031223">
+    <state width="1874" height="272" key="GridCell.Tab.0.bottom" timestamp="1590453927229">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="272" key="GridCell.Tab.0.bottom/0.27.1920.985@0.27.1920.985" timestamp="1590448031223" />
-    <state width="1874" height="272" key="GridCell.Tab.0.center" timestamp="1590448031222">
+    <state width="1874" height="272" key="GridCell.Tab.0.bottom/0.27.1920.985@0.27.1920.985" timestamp="1590453927229" />
+    <state width="1874" height="272" key="GridCell.Tab.0.center" timestamp="1590453927226">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="272" key="GridCell.Tab.0.center/0.27.1920.985@0.27.1920.985" timestamp="1590448031222" />
-    <state width="1874" height="272" key="GridCell.Tab.0.left" timestamp="1590448031214">
+    <state width="1874" height="272" key="GridCell.Tab.0.center/0.27.1920.985@0.27.1920.985" timestamp="1590453927226" />
+    <state width="1874" height="272" key="GridCell.Tab.0.left" timestamp="1590453927225">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="272" key="GridCell.Tab.0.left/0.27.1920.985@0.27.1920.985" timestamp="1590448031214" />
-    <state width="1874" height="272" key="GridCell.Tab.0.right" timestamp="1590448031223">
+    <state width="1874" height="272" key="GridCell.Tab.0.left/0.27.1920.985@0.27.1920.985" timestamp="1590453927225" />
+    <state width="1874" height="272" key="GridCell.Tab.0.right" timestamp="1590453927228">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state width="1874" height="272" key="GridCell.Tab.0.right/0.27.1920.985@0.27.1920.985" timestamp="1590448031223" />
+    <state width="1874" height="272" key="GridCell.Tab.0.right/0.27.1920.985@0.27.1920.985" timestamp="1590453927228" />
     <state width="1874" height="313" key="GridCell.Tab.1.bottom" timestamp="1590427627680">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
@@ -379,9 +400,9 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="624" y="162" width="672" height="676" key="search.everywhere.popup/0.27.1920.985@0.27.1920.985" timestamp="1590431535329" />
-    <state x="685" y="351" width="540" height="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590424109140">
+    <state x="685" y="351" width="540" height="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590467856509">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
-    <state x="685" y="351" width="540" height="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.985@0.27.1920.985" timestamp="1590424109140" />
+    <state x="685" y="351" width="540" height="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.985@0.27.1920.985" timestamp="1590467856509" />
   </component>
 </project>
