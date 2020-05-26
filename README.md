@@ -19,8 +19,11 @@ Step 1:
 ```
 Step 2:
 ```
-docker-compose -f app.yml up \
-    -e MONGO_INITDB_ROOT_USERNAME <mongodb username> \
-    -e MONGO_INITDB_ROOT_PASSWORD <mongodb password> \
-    -e MONGODB_CONNECTION_URL <mongodb connection string>
+echo MONGO_INITDB_ROOT_USERNAME=<mongodb username> >> .env
+echo MONGO_INITDB_ROOT_PASSWORD=<mongodb password> >> .env
+echo MONGODB_CONNECTION_URL=<mongodb connection string> >> .env
+```
+Step 3:
+```
+docker-compose -f app.yml up
 ```
